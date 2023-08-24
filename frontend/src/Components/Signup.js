@@ -24,7 +24,7 @@ export default function SignUp() {
     }
 
     // Sending data to server
-    fetch("http://localhost:8000/signup", {
+    fetch("https://wizseotask.onrender.com/signup", {
       method: "post",
       headers: {
         "Content-Type": "application/json"
